@@ -2,7 +2,7 @@ import os
 class Stack:
     def __init__(self, size):
         self.items = []
-        self.size =size
+        self.size = size
 
     def is_empty(self):
          if len(self.items) == 0:
@@ -26,7 +26,7 @@ class Stack:
 
     def status(self):
         for element in self.items:
-            print(elements)
+            print(element)
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
